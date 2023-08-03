@@ -1,0 +1,39 @@
+.Nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px;
+    padding: 15px;
+    background-color: rgb(185, 129, 183);
+}
+
+.NavBtn{ 
+    display: flex;
+    justify-content: end;
+    
+}
+
+.btn{
+    margin: 5px;
+    padding: 7px;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    background-color: rgb(204, 51, 171);
+    border: 2px solid rgb(204, 51, 171);
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+.btn:hover{
+    text-decoration: underline;
+    font-weight: 700;
+    color: rgb(204, 51, 171);
+    background-color: rgb(234, 218, 235);
+}
+
+.NavCarrito{
+    display: flex;
+    justify-content: end;
+}
