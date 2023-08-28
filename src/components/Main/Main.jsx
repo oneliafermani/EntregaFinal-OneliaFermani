@@ -6,7 +6,7 @@ function Main () {
         <div className="Main">
             <div className=''>
                 <h5 className='MainTitle'>Bienvenidos a Dolce & Ricco </h5>
-                <p className='MainText'> Nos dedicamos a fabricar desde el amor y la familiaridad</p>
+                <p className='MainText'> El ingrediente secreto es AMOR. ¡Sentimos AMOR por la pastelería y queremos llevarlo a tu hogar! Hacemos todos los productos de manera 100% artesanal y personalizada. Esperamos que te guste todo lo que veas y puedas probarlo pronto!</p>
             </div>
             <div className="MainImg">
                 <img width="1000px" src= {FotoPresentacion} alt="Pasteleria" className='MainImg'/>

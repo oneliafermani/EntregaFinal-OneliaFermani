@@ -1,19 +1,18 @@
 import ItemListContainer from "../ItemListContainer/ItemListContainer";
 import NavBar from "../NavBar/NavBar";
+import "./PagPRoducts.css"
 
 
 function PagProducts () {
     return(
-        <div>
+        <div className="PagProducts">
             <div>
                 <NavBar/>   
             </div>
-            <div>
-                <p>CONOZCA TODOS NUESTROS PRODUCTOS</p>
+            <div className="MainProducts">
+                <p className="TitleProducts">CONOZCA TODOS NUESTROS PRODUCTOS</p>
                 <ItemListContainer/>
-                
             </div>
-        
         </div>
     )
 

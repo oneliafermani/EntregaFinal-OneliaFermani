@@ -1,56 +1,73 @@
-@import url('https://fonts.googleapis.com/css2?family=Borel&family=Dancing+Script:wght@700&family=Dosis&family=Manrope:wght@300&family=Montserrat:wght@400;500&family=Roboto:ital,wght@0,300;0,700;1,400&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Borel&family=Dancing+Script:wght@700&family=Dosis&family=Manrope:wght@300&family=Montserrat:wght@400;500&family=Roboto:ital,wght@0,300;0,700;1,400&family=Tajawal:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Bricolage+Grotesque:opsz@10..48&family=Dancing+Script:wght@700&family=Dosis&family=Gluten&family=Manrope:wght@300&family=Montserrat:wght@400;500&family=Red+Hat+Display&family=Roboto:ital,wght@0,300;0,700;1,400&family=Tajawal:wght@300&display=swap');
 
-.CardItem{
-    max-width: 300px;
+
+.CardItemDetail{
+    max-width: 500px;
+    margin: 10px;
+    padding: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 2px;
-    background-color: rgb(248, 194, 253);
+    background-color: rgb(235, 220, 236);
     border: 2px solid rgb(248, 194, 253);
-    margin: 7px;
     box-sizing: border-box;
     border-radius: 20px;
 }
 
-.Header{
-    margin: 3px;
+.HeaderDetail{
+    margin: 0px;
     padding: 0px;
 }
 
-.ItemHeader{
-    font-family: 'Dosis', sans-serif;
-    font-size: 23px;
+.ItemHeaderDetail{
+    margin: 0px;
+    padding: 10px;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-size: 35px;
+    color: rgb(204, 51, 171);
 }
 
-.ItemImg{
-    width: 200px;
-    margin: 10px;
+.ItemImgDetail{
+    width: 300px;
+    margin: 8px;
     padding: 0px;
     border-radius: 5px;
-    border: 2px solid rgba(39, 38, 38, 0.815);
+    border: 2px solid  rgb(248, 194, 253);
 }
 
-.Info{
+
+
+.InfoDetail{
     margin: 3px;
     padding: 0px;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 15px;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-size: 18px;
+}
+
+.InfoDetailPrice{
+    margin: 3px;
+    padding: 5px;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
 
 }
 
-.ItemFooter{
+.ItemFooterDetail{
     display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    margin: 3px;
 }
 
-.Option{
-    margin: 5px;
+.OptionDetail{
+    margin: 3px;
     padding: 7px;
     color: white;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 13px;
+    text-decoration: none;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-size: 16px;
     background-color: rgb(204, 51, 171);
     border: 2px solid rgb(204, 51, 171);
     border-radius: 8px;

@@ -6,12 +6,12 @@ import "./NavBar.css"
 
 const NavBar = () => {
     return (
-        <nav className="Nav">
+        <nav className="NavCategory">
             <div className="NavCategory">
-                <NavLink to={`/category/tortas`}  > tortas</NavLink>
-                <NavLink to={`/category/tartas`}  > tartas</NavLink>
-                <NavLink to={`/category/cupcackes`}  > cupcackes</NavLink>
-            </div>        
+                <Link to={'/category/tortas'} className='btnCat'> Tortas   </Link>  
+                <Link to={'/category/tartas'}  className='btnCat'> Tartas  </Link>  
+                <Link to={'/category/cupcackes'} className='btnCat'> Cupcackes  </Link>      
+            </div> 
         </nav>
     )
 }

@@ -9,15 +9,20 @@
 .Controls{
     display: flex;
     flex-direction: row;
-    margin: 5px;
+    flex-wrap: wrap;
+    margin: 3%;
     justify-content: center;
     
 }
 
 .Button{
     display: flex;
-    margin: 8px;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    padding: 7px;
     color: white;
+    text-decoration: none;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
@@ -29,17 +34,9 @@
 
 .Number{
     display: flex;
+    margin: 3px;
+    justify-content: center;
+    align-items: center;
     font-family: 'Montserrat', sans-serif;
 }
 
-.Text{
-    display: flex;
-    justify-content: center;
-    color: white;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
-    background-color: rgb(204, 51, 171);
-    border: 2px solid rgb(204, 51, 171);
-    border-radius: 8px;
-    box-sizing: border-box;
-}

@@ -10,17 +10,18 @@
 
 .NavCategory{ 
     display: flex;
-    justify-content: end;
-    
+    justify-content: start;
+    margin: 10px;
 }
 
 .btn{
     margin: 5px;
     padding: 7px;
     color: white;
-    font-size: 15px;
+    font-size: 16px;
     font-weight: 400;
     text-decoration: none;
+    font-family: 'Bricolage Grotesque', sans-serif;
     background-color:  rgb(204, 51, 171);
     border: 2px solid rgb(204, 51, 171);
     border-radius: 8px;
@@ -45,8 +46,24 @@
     color: black;
     font-size: 15px;
     font-weight: 500;
+    font-family: 'Bricolage Grotesque', sans-serif;
     background-color: rgb(204, 51, 171);
     border: 2px solid rgb(204, 51, 171);
     border-radius: 8px;
     box-sizing: border-box;
+    text-decoration: none;
+}
+
+.btnCat{
+    margin: 5px;
+    padding: 7px;
+    color: rgb(204, 51, 171);
+    font-size: 15px;
+    font-weight: 400;
+    text-decoration: none;
+    background-color:  rgb(243, 217, 237);
+    border: 1px solid rgb(240, 198, 230);
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-family: 'Bricolage Grotesque', sans-serif;
 }

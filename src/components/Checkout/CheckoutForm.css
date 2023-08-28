@@ -1,0 +1,29 @@
+.Form{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    align-items: flex-start;
+}
+
+.CheckoutTitle{
+
+        margin: 0px;
+        padding: 10px;
+        font-family: 'Bricolage Grotesque', sans-serif;
+        font-size: 35px;
+        color: rgb(66, 61, 65);
+    
+}
+.label{
+    margin: 5px;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-size: 18px;
+}
+
+.input{
+    margin: 5px;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-size: 18px;
+    border: 2px solid rgb(232, 180, 236);
+    border-radius: 5px;
+}

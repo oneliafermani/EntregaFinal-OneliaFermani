@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Bricolage+Grotesque:opsz@10..48&family=Dancing+Script:wght@700&family=Dosis&family=Gluten&family=Manrope:wght@300&family=Montserrat:wght@400;500&family=Red+Hat+Display&family=Roboto:ital,wght@0,300;0,700;1,400&family=Tajawal:wght@300&display=swap');
+
+.PagProducts{
+    margin: 0px;
+}
+
+.TitleProducts{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+    color: rgb(88, 83, 88);;
+    text-decoration: underline;
+}

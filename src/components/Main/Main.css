@@ -17,14 +17,15 @@
     justify-content: center;
     align-items: center;
     font-family: 'Dancing Script';
-    font-size: 50px;
+    font-size: 60px;
+    font-weight: bold;
     color: rgb(245, 24, 178);
 }
 
 .MainText{
-    font-family: 'Dosis';
+    font-family: 'Bricolage Grotesque', sans-serif;
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 .MainImg{
